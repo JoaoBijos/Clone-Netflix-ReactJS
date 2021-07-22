@@ -23,6 +23,7 @@ export default () => {
       let chosen = originals[0].items.results[randomChosen];
       let chosenInfo = await tmdb.getMovieInfo(chosen.id, 'tv');
       setFeaturedData(chosenInfo);
+      
     }
 
     loadAll();
