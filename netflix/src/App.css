@@ -10,3 +10,18 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+.lists{
+    margin-top: -120px;
+}
+
+footer{
+    color: #cccc;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+footer a{
+    padding: 0 30px;
+}

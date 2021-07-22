@@ -1,5 +1,5 @@
 import React from 'react';
-import './FeatureMovie.css';
+import './style.css';
 
 export default ({item}) => {
 
